@@ -1,0 +1,43 @@
+﻿<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildAnimals</xpath>
+	<value>
+		<Foamalope>0.7</Foamalope>
+		<EMpalumpalope>0.7</EMpalumpalope>
+		<Poofalope>0.7</Poofalope>
+		<Uhmalope>0.7</Uhmalope>
+	</value>
+</Operation>
+	
+<Operation Class="PatchOperationAdd">	
+	<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/wildAnimals</xpath>
+	<value>
+		<Foamalope>0.2</Foamalope>
+		<EMpalumpalope>0.2</EMpalumpalope>
+		<Poofalope>0.2</Poofalope>
+		<Uhmalope>0.2</Uhmalope>
+	</value>
+</Operation>
+	
+<Operation Class="PatchOperationAdd">	
+	<xpath>/Defs/BiomeDef[defName = "Desert"]/wildAnimals</xpath>
+	<value>
+		<Foamalope>0.2</Foamalope>
+		<EMpalumpalope>0.2</EMpalumpalope>
+		<Poofalope>0.2</Poofalope>
+		<Uhmalope>0.2</Uhmalope>
+	</value>
+</Operation>
+	
+<Operation Class="PatchOperationAdd">	
+	<xpath>/Defs/BiomeDef[defName = "AridShrubland"]/wildAnimals</xpath>
+	<value>
+		<Foamalope>0.5</Foamalope>
+		<EMpalumpalope>0.5</EMpalumpalope>
+		<Poofalope>0.5</Poofalope>
+		<Uhmalope>0.5</Uhmalope>
+	</value>
+</Operation>
+
+</Patch>
