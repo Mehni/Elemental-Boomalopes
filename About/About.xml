@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Elemental Boomalopes</name>
-  <author>Mehni</author>
-  <description>Boomalopes that do more than go boom. Ask your car dealer today!</description>
-  <url>https://ludeon.com/forums/index.php?topic=31811.msg325566#msg325566</url>
-  <targetVersion>0.17.0</targetVersion>
+  <author>Mehni and Harry Dicks</author>
+  <description>Boomalopes that do more than go boom. Ask your boomalope dealer today!</description>
+  <url>https://ludeon.com/forums/index.php?topic=35832</url>
+  <targetVersion>0.18.0</targetVersion>
 </ModMetaData>
