@@ -61,12 +61,12 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 	  <wildBiomes>
-		<TropicalRainforest>0.5</TropicalRainforest>
-		<TemperateForest>0.1</TemperateForest>
-		<Desert>0.1</Desert>
-		<AridShrubland>0.3</AridShrubland>
+		<TropicalRainforest>0.7</TropicalRainforest>
+		<TemperateForest>0.2</TemperateForest>
+		<Desert>0.2</Desert>
+		<AridShrubland>0.5</AridShrubland>
 		<TemperateSwamp>0.2</TemperateSwamp>
-		<TropicalSwamp>0.2</TropicalSwamp>
+		<TropicalSwamp>0.7</TropicalSwamp>
 	  </wildBiomes>
       <useMeatFrom>Boomalope</useMeatFrom>
       <useLeatherFrom>Boomalope</useLeatherFrom>
