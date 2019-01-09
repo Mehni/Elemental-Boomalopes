@@ -7,4 +7,5 @@ These special boomalopes all mastered one of the Elements of RimWorld: Smoke, Fi
 Want to use boomalopes to your tactical advantage against mechanoids? You can. If you want, you can even use them to protect your base against fire! Let the boomies do the fighting for you--- but beware manhunter packs.
 
 B18 update made possible by HarryDicks
+
 v1.0 update by Alias
