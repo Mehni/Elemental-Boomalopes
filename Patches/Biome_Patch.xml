@@ -1,110 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<!--TemperateForest-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals/Boomalope</xpath>
-		<value>
-			<Boomalope>0.08</Boomalope>
-		</value>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="TropicalRainforest" or defName="TropicalSwamp" or defName="AridShrubland" or defName="Desert"]/wildAnimals/Boomalope</xpath>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+		<xpath>Defs/ThingDef[defName="Boomalope"]/race</xpath>
 		<value>
-			<Foamalope>0.08</Foamalope>
-			<EMPalumpalope>0.08</EMPalumpalope>
-			<Poofalope>0.08</Poofalope>
-			<Uhmalope>0.08</Uhmalope>
+			<wildBiomes>
+				<TemperateForest>0.08</TemperateForest>
+				<TemperateSwamp>0.08</TemperateSwamp>
+				<TropicalRainforest>0.1</TropicalRainforest>
+				<TropicalSwamp>0.1</TropicalSwamp>
+				<AridShrubland>0.1</AridShrubland>
+				<Desert>0.12</Desert>
+			</wildBiomes>
 		</value>
-	</Operation>
-	
-	<!--TemperateSwamp-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals/Boomalope</xpath>
-		<value>
-			<Boomalope>0.08</Boomalope>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
-		<value>
-			<Foamalope>0.08</Foamalope>
-			<EMPalumpalope>0.08</EMPalumpalope>
-			<Poofalope>0.08</Poofalope>
-			<Uhmalope>0.08</Uhmalope>
-		</value>
-	</Operation>
-	
-	<!--TropicalRainforest-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals/Boomalope</xpath>
-		<value>
-			<Boomalope>0.1</Boomalope>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
-		<value>
-			<Foamalope>0.1</Foamalope>
-			<EMPalumpalope>0.1</EMPalumpalope>
-			<Poofalope>0.1</Poofalope>
-			<Uhmalope>0.1</Uhmalope>
-		</value>
-	</Operation>
-	
-	<!--TropicalSwamp-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals/Boomalope</xpath>
-		<value>
-			<Boomalope>0.1</Boomalope>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
-		<value>
-			<Foamalope>0.1</Foamalope>
-			<EMPalumpalope>0.1</EMPalumpalope>
-			<Poofalope>0.1</Poofalope>
-			<Uhmalope>0.1</Uhmalope>
-		</value>
-	</Operation>
-	
-	<!--AridShrubland-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals/Boomalope</xpath>
-		<value>
-			<Boomalope>0.1</Boomalope>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
-		<value>
-			<Foamalope>0.1</Foamalope>
-			<EMPalumpalope>0.1</EMPalumpalope>
-			<Poofalope>0.1</Poofalope>
-			<Uhmalope>0.1</Uhmalope>
-		</value>
-	</Operation>
-	
-	<!--Desert-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals/Boomalope</xpath>
-		<value>
-			<Boomalope>0.12</Boomalope>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
-		<value>
-			<Foamalope>0.12</Foamalope>
-			<EMPalumpalope>0.12</EMPalumpalope>
-			<Poofalope>0.12</Poofalope>
-			<Uhmalope>0.12</Uhmalope>
-		</value>
-	</Operation>
+	</Operation>	
 </Patch>
