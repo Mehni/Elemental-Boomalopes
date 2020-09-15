@@ -9,3 +9,4 @@ Want to use boomalopes to your tactical advantage against mechanoids? You can. I
 B18 update made possible by HarryDicks
 
 v1.0 update by Alias
+v1.1 and v1.2 update by Timmotus
