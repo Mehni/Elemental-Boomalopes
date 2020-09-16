@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- Core Boomalope Base/Kind is now xpathed to also be parent object for the other Alopes-->
+<!-- Core Boomalope Base/Kind is now xpathed to also be parent object for the other Elemental Boomalopes-->
 
-<!-- ============Foamalope============= --> 
+<!-- ============Foamalope============= -->
 
   <ThingDef ParentName="AnimalThingBaseAlope">
     <defName>Foamalope</defName>
@@ -13,7 +13,7 @@
 	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_BigExplosion_FireFoam</deathActionWorkerClass>
     </race>
   </ThingDef>
-  
+
   <PawnKindDef ParentName="AnimalKindBaseAlope">
     <defName>Foamalope</defName>
     <label>foamalope</label>
@@ -69,10 +69,10 @@
           <drawSize>2.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
-    </lifeStages>		
+    </lifeStages>
   </PawnKindDef>
 
-<!-- ============EMPalumpalope============= --> 
+<!-- ============EMPalumpalope============= -->
 
   <ThingDef ParentName="AnimalThingBaseAlope">
     <defName>EMPalumpalope</defName>
@@ -82,7 +82,7 @@
 	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_BigExplosion_EMP</deathActionWorkerClass>
     </race>
   </ThingDef>
-  
+
   <PawnKindDef ParentName="AnimalKindBaseAlope">
     <defName>EMPalumpalope</defName>
     <label>EMPalumpalope</label>
@@ -138,10 +138,10 @@
           <drawSize>2.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
-    </lifeStages>		
+    </lifeStages>
   </PawnKindDef>
-	
-<!-- ============Poofalope============= --> 
+
+<!-- ============Poofalope============= -->
 
   <ThingDef ParentName="AnimalThingBaseAlope">
     <defName>Poofalope</defName>
@@ -151,7 +151,7 @@
 	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_BigExplosion_Smoke</deathActionWorkerClass>
     </race>
   </ThingDef>
-  
+
   <PawnKindDef ParentName="AnimalKindBaseAlope">
     <defName>Poofalope</defName>
     <label>poofalope</label>
@@ -207,10 +207,10 @@
           <drawSize>2.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
-    </lifeStages>		
+    </lifeStages>
   </PawnKindDef>
-	
-<!-- ============Uhmalope============= --> 
+
+<!-- ============Uhmalope============= -->
 
   <ThingDef ParentName="AnimalThingBaseAlope">
     <defName>Uhmalope</defName>
@@ -220,7 +220,7 @@
 	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_BigExplosion_Stun</deathActionWorkerClass>
     </race>
   </ThingDef>
-  
+
   <PawnKindDef ParentName="AnimalKindBaseAlope">
     <defName>Uhmalope</defName>
     <label>uhmalope</label>
@@ -276,7 +276,7 @@
           <drawSize>2.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
-    </lifeStages>		
+    </lifeStages>
   </PawnKindDef>
-	
+
 </Defs>
