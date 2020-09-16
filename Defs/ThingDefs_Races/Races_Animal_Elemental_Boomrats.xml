@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Core Boomrat Base/Kind is now xpathed to also be parent object for the other Elemental Rats-->
+
+<!-- ============Foamrat============= -->
+
+  <ThingDef ParentName="AnimalThingBaseErat">
+    <defName>Foamrat</defName>
+    <label>foamrat</label>
+    <description>Engineered for chemicals production, the foamarat grows a large sac of sticky chemicals in its hump. Though it is weak and fragile for its size, other animals have learned to avoid it because of the huge mess it leaves when it dies.</description>
+    <race>
+	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_SmallExplosion_FireFoam</deathActionWorkerClass>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseErat">
+    <defName>Foamrat</defName>
+    <label>foamrat</label>
+    <race>Foamrat</race>
+    <lifeStages Inherit="False">
+      <li>
+        <label>foamrat calf</label>
+        <labelPlural>foamrat calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(255,92,86)</color>
+          <drawSize>0.80</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomarat</texPath>
+          <drawSize>0.80</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomats/Baserat</texPath>
+          <color>(255,92,86)</color>
+          <drawSize>1.0</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(255,92,86)</color>
+          <drawSize>1.15</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>1.15</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+<!-- ============Shockrat============= -->
+
+  <ThingDef ParentName="AnimalThingBaseErat">
+    <defName>Shockrat</defName>
+    <label>shockrat</label>
+    <description>Engineered for electrical production, the Shockrat passively generates a large amount of static electricity. Though it is weak and fragile for its size, other animals have learned to avoid it because of the prickly mouth sensation it leaves.</description>
+    <race>
+	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_SmallExplosion_EMP</deathActionWorkerClass>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseAlope">
+    <defName>Shockrat</defName>
+    <label>shockrat</label>
+    <race>Shockrat</race>
+    <lifeStages Inherit="False">
+      <li>
+        <label>shockrat calf</label>
+        <labelPlural>shockrat calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(110,195,229)</color>
+          <drawSize>0.80</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>0.80</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(110,195,229)</color>
+          <drawSize>1.0</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(110,195,229)</color>
+          <drawSize>1.15</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>1.15</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+<!-- ============Poofrat============= -->
+
+  <ThingDef ParentName="AnimalThingBaseErat">
+    <defName>Poofrat</defName>
+    <label>poofrat</label>
+    <description>Long forgotten why or how it ever came to be, the poofrat is generally looked down upon as useless. Though it is weak and lightweight for its size, technically no one has ever seen a poofalope die.</description>
+    <race>
+	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_SmallExplosion_Smoke</deathActionWorkerClass>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseErat">
+    <defName>Poofrat</defName>
+    <label>poofrat</label>
+    <race>Poofrat</race>
+    <lifeStages Inherit="False">
+      <li>
+        <label>poofrat calf</label>
+        <labelPlural>poofrat calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(0,255,33)</color>
+          <drawSize>0.80</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>0.80</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(0,255,33)</color>
+          <drawSize>1.0</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(0,255,33)</color>
+          <drawSize>1.15</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>1.15</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+<!-- ============Uhmarat============= -->
+
+  <ThingDef ParentName="AnimalThingBaseErat">
+    <defName>Uhmarat</defName>
+    <label>uhmarat</label>
+    <description>Engineered as a practical joke between colleagues, the uhmarat grows a large sac of stunning chemicals on its back. Though it is weak and fragile for its size, other animals have learned to avoid it because of the headache it leaves when it dies.</description>
+    <race>
+	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_SmallExplosion_Stun</deathActionWorkerClass>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseErat">
+    <defName>Uhmarat</defName>
+    <label>uhmarat</label>
+    <race>Uhmarat</race>
+    <lifeStages Inherit="False">
+      <li>
+        <label>uhmarat calf</label>
+        <labelPlural>uhmarat calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(221,5,255)</color>
+          <drawSize>0.80</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>0.80</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(221,5,255)</color>
+          <drawSize>1.0</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elemental Boomrats/Baserat</texPath>
+          <color>(221,5,255)</color>
+          <drawSize>1.15</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>1.15</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>
