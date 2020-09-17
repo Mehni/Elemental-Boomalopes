@@ -1,7 +1,7 @@
 # Elemental-Boomalopes
 
 Boomalopes that do more than go boom.
-Now also with Elemental Rats!
+Now also with Elemental Boomrats!
 
 These special boomalopes all mastered one of the Elements of RimWorld: Smoke, Firefoam, Stun and EMP. Some of them go boom, some of them go zap. Others go poof!
 
@@ -9,4 +9,4 @@ Want to use boomalopes to your tactical advantage against mechanoids? You can. I
 
 B18 update made possible by HarryDicks
 v1.0 update by Alias
-v1.1, v1.2 and Elemental Rats (1.1 and up) update by Timmotus
+v1.1, v1.2 and Elemental Boomrats (1.1 and up) update by Timmotus
