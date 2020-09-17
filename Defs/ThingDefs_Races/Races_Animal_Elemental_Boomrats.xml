@@ -8,7 +8,7 @@
   <ThingDef ParentName="AnimalThingBaseErat">
     <defName>Foamrat</defName>
     <label>foamrat</label>
-    <description>Engineered for chemicals production, the foamarat grows a large sac of sticky chemicals in its hump. Though it is weak and fragile for its size, other animals have learned to avoid it because of the huge mess it leaves when it dies.</description>
+    <description>Either by deliberate genetic weaponization, or as an unusual defense mechanism, these rodent-like creatures create quite the sticky mess when killed.</description>
     <race>
 	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_SmallExplosion_FireFoam</deathActionWorkerClass>
     </race>
@@ -65,7 +65,7 @@
   <ThingDef ParentName="AnimalThingBaseErat">
     <defName>Shockrat</defName>
     <label>shockrat</label>
-    <description>Engineered for electrical production, the Shockrat passively generates a large amount of static electricity. Though it is weak and fragile for its size, other animals have learned to avoid it because of the prickly mouth sensation it leaves.</description>
+    <description>Either by deliberate genetic weaponization, or as an unusual defense mechanism, these rodent-like creatures create a powerful shock when killed.</description>
     <race>
 	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_SmallExplosion_EMP</deathActionWorkerClass>
     </race>
@@ -122,7 +122,7 @@
   <ThingDef ParentName="AnimalThingBaseErat">
     <defName>Poofrat</defName>
     <label>poofrat</label>
-    <description>Long forgotten why or how it ever came to be, the poofrat is generally looked down upon as useless. Though it is weak and lightweight for its size, technically no one has ever seen a poofalope die.</description>
+    <description>Long forgotten why or how it ever came to be, the poofrat is generally looked down upon as useless due to being small and weak. Technically no one has ever seen a poofrat die.</description>
     <race>
 	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_SmallExplosion_Smoke</deathActionWorkerClass>
     </race>
@@ -179,7 +179,7 @@
   <ThingDef ParentName="AnimalThingBaseErat">
     <defName>Uhmarat</defName>
     <label>uhmarat</label>
-    <description>Engineered as a practical joke between colleagues, the uhmarat grows a large sac of stunning chemicals on its back. Though it is weak and fragile for its size, other animals have learned to avoid it because of the headache it leaves when it dies.</description>
+    <description>Engineered as a practical joke between colleagues, these rodent-like creatures leave quite the headache when killed.</description>
     <race>
 	  <deathActionWorkerClass>Elemental_Boomalopes.DeathActionWorker_SmallExplosion_Stun</deathActionWorkerClass>
     </race>
